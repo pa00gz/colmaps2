@@ -2,6 +2,8 @@
 colmaps
 =======
 
+colmaps2 - changes to the original colmaps (https://github.com/nebulae-co/colmaps) for better use with plotly and other packages.
+
 colmaps - colombian maps or color maps (your choice) - is an R package with current boundaries data of Colombia plus a minimal [`ggplot2::geom_map()`](http://docs.ggplot2.org/current/geom_map.html) wrapper to make [choropleth maps](https://en.wikipedia.org/wiki/Choropleth_map) with selected default color scales.
 
 ### Installation

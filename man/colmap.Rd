@@ -4,8 +4,16 @@
 \alias{colmap}
 \title{Colmap}
 \usage{
-colmap(map = departamentos, data = NULL, var = NULL, map_id = "id",
-  data_id = map_id, legend = TRUE, autocomplete = FALSE)
+colmap(
+  map = departamentos,
+  data = NULL,
+  var = NULL,
+  map_id = "id",
+  data_id = map_id,
+  legend = TRUE,
+  autocomplete = FALSE,
+  ...
+)
 }
 \arguments{
 \item{map}{a \code{\link{fortify}}able object sucha as a
@@ -48,4 +56,3 @@ can get further control with ggplot.
 colmap() # Plot default map: Colombia departments.
 
 }
-

@@ -4,7 +4,8 @@
 \name{municipios}
 \alias{municipios}
 \title{Colombian municipality boundaries.}
-\format{A \code{\linkS4class{SpatialPolygonsDataFrame}}. The data slot is a
+\format{
+A \code{\linkS4class{SpatialPolygonsDataFrame}}. The data slot is a
 data frame with:
 \describe{
   \item{id}{official municipality id as defined by the
@@ -14,7 +15,8 @@ data frame with:
      circumbscribed, character}
   \item{municipio}{name of the municipality}
      \item{depto}{department name}
-}}
+}
+}
 \source{
 \url{http://geoportal.dane.gov.co:8084/Divipola}
 }
@@ -30,4 +32,3 @@ areas).
 \code{\link{departamentos}} for department level data.
 }
 \keyword{datasets}
-

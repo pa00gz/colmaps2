@@ -25,4 +25,3 @@ Antioquia <- map_departamentos("Antioquia")
 colmap(Antioquia) # Generating the color map
 
 }
-

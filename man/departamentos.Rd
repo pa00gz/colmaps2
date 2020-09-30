@@ -4,13 +4,15 @@
 \name{departamentos}
 \alias{departamentos}
 \title{Colombian department boundaries.}
-\format{A \code{\linkS4class{SpatialPolygonsDataFrame}}. The data slot is a
+\format{
+A \code{\linkS4class{SpatialPolygonsDataFrame}}. The data slot is a
 data frame with:
 \describe{
   \item{id}{official department id as defined by the National Department of
   Statistics (DANE), character}
   \item{depto}{the department name}
-}}
+}
+}
 \source{
 \url{http://geoportal.dane.gov.co:8084/Divipola}
 }
@@ -25,4 +27,3 @@ departments, including its capital, Bogotá.
 \code{\link{municipios}} for data at the municipality level.
 }
 \keyword{datasets}
-
